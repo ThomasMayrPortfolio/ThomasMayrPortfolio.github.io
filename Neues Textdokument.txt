@@ -1,0 +1,102 @@
+</section>
+        <section class="cv">
+            <table class = "cv__table">
+                <tr>
+                    <th>
+                        <h2 class="cv__table--header"><i class="fas fa-address-card"></i> Persönlich Daten</h2>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">Geburtsdaten</th>
+                    <td>19.08.1999 Austria, Salzburg</td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">Adresse</th>
+                    <td>5020 Salzburg, Dr.Muralater Straße 11</td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">Telefonnummer</th>
+                    <td>+0677/64460106</td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">E-Mail Adresse</th>
+                    <td>Thomas.Mayr1908@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <h2 class="cv__table--header"><i class="fas fa-graduation-cap"></i> Ausbildung</h2>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">2020 - jetzt</th>
+                    <td><strong>Fachhochschule Urstein</strong><br>
+                        Multimedia Technology
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">2015 - 2019</th>
+                    <td><b>Borg Nonntal</b><br>
+                        abgeschlossene Matura mit Schwerpunkt auf Informatik
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">2011 - 2015</th>
+                    <td><b>Neue Mittelschule Nonntal</b><br>
+                        Pflichschulabschluss mit Schwerpunkt auf Informatik
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                      <h2 class="cv__table--header"><i class="fas fa-briefcase"></i> Berufserfahung</h2>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">2019 - 2020</th>
+                    <td><strong>Zivildienst</strong><br>
+                        im Seniorenwohnheim Hellbrunn
+                    </td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">2015</th>
+                    <td>Gebrüder Limmert AG<br>
+                        Praktikum in der Elektronik und Hardware Abteilung
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <h2 class="cv__table--header"><i class="fas fa-layer-group"></i> Interests</h2>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">Sprachkenntnisse</th>
+                    <td>Deutsch(C2), Englisch(B2), Italienisch(A2)</td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">IT-Skills</th>
+                    <td>MS Word, MS Excel, <br>
+                        Adobe Photoshop, Gimp, Adobe Illustrator, <br>
+                        HTML5, CSS, JavaScript, <br>
+                        PHP, SQL, PostgreSQL, <br>
+                        C#, C++, Unity, Maya/Blender, OpenGL</td>
+                </tr>
+
+                <tr>
+                    <th class="cv__table--th">Hobbies</th>
+                    <td>Zeichnen, Malen, Pen & Paper, Brettspiele, Games, Klettern, Kreatives Schreiben</td>
+                </tr>
+              </table> 
+        </section>

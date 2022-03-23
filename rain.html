@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Rain</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/9a3638a209.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html" class="logo__font"><i class="fas fa-trademark"></i></a>
+            </div>
+
+            <button onclick="toggleDarkMode()" class="nav__toggle-darkmode">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">Meine Projekte</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">Über mich</a></li> 
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">Fähigkeiten</a></li>   
+                  </ul>
+            </nav>
+        </header>
+
+    <section class="intro" id="home" width=>
+        <h1 class="section__title section__title--intro">
+            Project Rain
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            MMArmelade
+        </p>
+        <img src="img/Rain.png" alt="" class="intro__img__item">
+    </section>
+
+    <div class="project__textfield">
+        <p>
+            Rain ist ein nasser Tower Defense Survival Shooter, bei dem Wasser deine wichtigste Ressource ist. Du befindest dich auf einem Wüstenplaneten mit riesigen Insekten, die dich und deine Rakete fressen wollen. Pflanze außerirdische Pflanzen, die dir helfen dich gegen die Alien-Käfer zu verteidigen, oder bekämpfe sie selbst mit dem, was sie am meisten hassen: Wasser!
+        </p>
+
+        <video  class="project__img" alt="Video of Rain Gameplay" controls>
+            <source src="img/Rain_vid.mp4" type="video/mp4">
+        </video>
+
+        <p>
+            Rain war das Produkt eines 3-tägigen Game Jams (MMAmelarde) und somit mein erstes schul- und arbeitsunabhängiges Software Gruppenprojekt. Also traf ich mich freitags nach der Fachhochschule mit einer Gruppe von game-affinen Freunden und gemeinsam schufen wir über das Wochenende den Tower Defense Topdown Shooter Rain.
+        </p>
+
+        <div class="container">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 3</div>
+                <img src="img/Rain_background.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+                <img src="img/Rain_ingame.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                  <img src="img/Rain_ingame2.png" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="img/Rain_background.png" style="width:100%" onclick="currentSlide(1)" alt="Hintergrund des Spiels">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/Rain_ingame.png" style="width:100%" onclick="currentSlide(2)" alt="Rain Gameplay">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="img/Rain_ingame2.png" style="width:100%" onclick="currentSlide(3)" alt="Rain Gameplay">
+              </div>
+            </div>
+          </div>
+
+        <p>
+            Der Gam Jam war das erste mal, dass ich in einer größeren Gruppe (5 Personen) von Developer zusammenarbeitete. Mir wurde die Basics von Git erklärt, anfangs etwas holprig doch zu Ende funktionierte der Git Workflow im Team sehr gut. Da ich aus privaten Projekten schon einige Erfahrungen in Unity sammeln konnte ich recht schnell etwas zu dem Spiel Codetechnisch beitragen. So baute ich die Menüs und half anderen Mitgliedern bei ihrem Code. Als mein Team merkte, dass ich der einzige im Team war, der einigermaßen Bildnerisch begabt war bekam ich die Rolle des Designers und war für alle Assets und Animationen verantwortlich. Diese zeichnete ich dann auch.
+        </p>
+
+        <p class="loli">
+            <a class="btn" href="https://chandrion.itch.io/rain">Jetzt Spielen!</a> 
+        </p>
+
+    </div>
+    
+    <footer class="footer">
+
+        <a href="mailto:thomas.mayr1908@gmail.com" class="footer__link">
+            <i class="fas fa-envelope-square"></i> Thomas.Mayr1908@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/thomas-mayr-5b8676227/" class="social-list__link">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://gitlab.mediacube.at/fhs45917" class="social-list__link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.reddit.com/" class="social-list__link">
+                    <i class="fab fa-reddit-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/thymas_maurizius/" class="social-list__link">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer__refernce">
+            <a class="footer__refernce--item" href="https://fontawesome.com/">Icons by Fontawsome</a>
+            <a class="footer__refernce--item" href="https://unsplash.com/@markusspiske">Background by Markus Spiske</a>
+        </div>
+        <p class="footer__info">© Thomas Mayr 2022</p>
+    </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

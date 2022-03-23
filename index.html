@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tom's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/9a3638a209.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html" class="logo__font"><i class="fas fa-trademark"></i></a>
+            </div>
+
+            <button onclick="toggleDarkMode()" class="nav__toggle-darkmode">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Meine Projekte</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Über mich</a></li> 
+                    <li class="nav__item"><a href="#services" class="nav__link">Fähigkeiten</a></li>  
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, Ich bin <strong>Thomas Mayr...</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                MMT Student
+            </p>
+            <img src="img/test.png" alt="picture of Thomas Mayr" class="intro__img">
+        </section>
+
+        <section class="section__intro">
+        <p class="section__intro--quote">
+            "… angehender Developer aus Österreich, Salzburg, mit einer Leidenschaft, Neues und Kreatives zu erschaffen. Zurzeit studiere ich Multimedia Technologie auf der Fachhochschule Salzburg und nehme privat an einigen Kunstprojekten teil. Auf dieser Seite erfährst du mehr über mich, meine Hobbies und meine Projekte!"
+        </p>
+        </section>
+
+        <section class="my-work" id="work">
+            <h1 class="section__title section__title--work">
+                Meine Projekte
+            </h1>
+            <h2 class="section__subtitle section__subtitle--work">
+                Eine kleine Auswahl
+            </h2>
+            <div class="portfolio">
+                <a href="liminal.html" class="portfoglio__item">
+                    <img src="img/liminalLogoQ.png" alt="Liminal Logo" class="portfoglio__img">
+                </a>
+                <a href="rain.html" class="portfoglio__item">
+                    <img src="img/Rain.png" alt="Rain Logo" class="portfoglio__img">
+                </a>
+                <a href="pandaball.html" class="portfoglio__item">
+                    <img src="img/pandaballLogoQ.png" alt="Panda Ball Logo" class="portfoglio__img">
+                </a>
+                <a href="penandpaper.html" class="portfoglio__item">
+                    <img src="img/pnpLogoQ.png" alt="Pen and Paper Logo" class="portfoglio__img">
+                </a>
+                <a href="art.html" class="portfoglio__item">
+                    <img src="img/Logo.png" alt="Art Logo" class="portfoglio__img">
+                </a>
+                <a href="https://portfolio.fh-salzburg.ac.at/projects/2022-bishoujo-panic" class="portfoglio__item">
+                    <img src="img/BishoujoPanicLogo.png" alt="Bishoujo Logo" class="portfoglio__img">
+                </a>
+            </div>
+        </section>
+
+        <section class="about-me" id="about">
+            <h1 class="section__title section__title-about">
+                Wer bin Ich?
+            </h1>
+            <p class="section__subtitle section__subtitle--about">
+                Ein kleiner Einblick
+            </p>
+            <div class="about-me__body">
+                <p>
+                    Hallo, Ich bin Thomas Mayr, 22 Jahre alt und bin angehender Programmierer aus Salzburg, Österreich. Zurzeit studiere ich Multimedia Technology an der Fachhochschule Salzburg mit Spezialisierung auf Mixed Reality und Games. 
+                </p>
+                <p>
+                    Meine Haupt-Programmiersprachen, in denen ich die meiste Praxis habe, sind C++ und vor allem C#. Dennoch habe ich in den ersten Semestern des MMT Studiums auch die Grundlagen im Bereich Web: Frontend(HTML5, CSS) und Backend(JS, PHP) sowie Datenbanken(PostgreSQL) gelernt. Meine Passion liegt jedoch im Entwerfen von Design und im Programmieren von Software. Vor allem in der Spieleprogrammierung kann ich diese beiden Aspekte sehr gut kombinieren. Darum nehme ich, so oft es mir möglich ist, an außerschulischen Programmier-Wettbewerben/Projekten und  Game Jams teil. Mehrere Gruppen aus Designern und Programmierern bekommen ein Thema vorgegeben, innerhalb einer vorgegebenen Zeit müssen die Teams ein möglichst gutes Spiel erschaffen. Dabei lernt man mit seinen Teamkollegen zusammen Konzepte auszuarbeiten, sich auf einen Workflow zu einigen und zu koordinieren. Und vor allem macht es Spaß!
+                </p>
+                <p>
+                    In meiner Freizeit gehe ich gerne Wandern, Kletter oder mache Sport, denn Fit zu sein ist mir sehr wichtig! Meine absolute Passion sind aber Spiele! Angefangen hat meine Begeisterung in frühster Kindheit mit Brett und Kartenspielen. Später erst hat mich die Welt der Computerspiele in ihren Bann gezogen. Ich begann verschiedenste Spiele miteinander zu kombinieren oder erschuf eigene Regelwerke und testete sie dann anschließend mit meinen Mitschülern in der Schule. Und dann entdeckte ich Pen and Paper und schon bald war ich der Spielleiter mehren Gruppen. Ich hostete regelmäßig Runden und fing an Abenteuer selbst zu schreiben, aber das reichte mir nicht. Eines Abends kam mir die wahnwitzige Idee einfach selbst ein Pen and Paper Regelwerk zu schreiben, und ich tat es. Inzwischen bin ich bei Fassung 4 (rund 400 Seiten), jedoch muss noch viel gebalanced werden und einige Macken ausgebessert werden. Durch ständige Playtests und selbstgeschriebener Software wird die Spielerfahrung immer besser!
+                </p>
+                <p>
+                    In letzter Zeit habe ich leider nicht allzuviel Zeit zum spielen aber wenn, dann spiele ich meistens CIV, AOE, LoL oder probiere Indie Spiele aus um neue unkonventionelle Game Mechaniken und Designs zu entdecken.
+                </p>
+                <p>
+                    Schreib mir eine <a href= "mailto:thomas.mayr1908@gmail.com">E-Mail</a>, wenn du mehr über meine Arbeit, Projekte oder Hobbies wissen willst!
+                </p>
+            </div>
+            <img src="img/tall.png" alt="picture of Thomas Mayr" class="about-me__img">
+        </section>
+
+        <section class="my-services" id="services">
+            <h1 class="section__title section__title--services">
+               Meine Fähigkeiten
+            </h1>
+            <div class="services">
+                <div class="service">
+                    <h1>
+                        Web
+                    </h1>
+                    <p>
+                        <h3><a href="https://www.w3.org/html/" class="linker">HTML5</a></h3><br>
+                        Als Jugendlicher habe ich schon primitive Webseiten mit rudimentären HTML, CSS & JS Kenntnissen gebaut. HTML ist sehr simple und gehört zu den absoluten Basics des Web Programming welche ich gut beherrsche.
+                    </p>
+                    <p>
+                        <h3><a href="https://www.w3.org/Style/CSS/Overview.en.html" class="linker">CSS</a></h3><br>
+                        Ist leider in der Fachhochschule etwas zu kurz gekommen, da sich die Kurse mehr auf das Programmieren spezialisiert haben. Ich möchte es dennoch mir selbst mit Online Kursen beibringen, da es mir sehr viel Spaß gemacht hat und ich gestalterische Tätigkeiten sehr gerne ausübe.
+                    </p>
+                    <p>
+                        <h3><a href="https://www.javascript.com/" class="linker">JavaScript</a></h3><br>
+                        Basics: DOM, Cookies, Sessions, Login, AJAX <br>
+                        JQuery<br>
+                        Basic Web Security
+                    </p>
+                    <p>
+                        <h3><a href="https://www.php.net/" class="linker">PHP</a></h3><br>
+                        PHP Basics: Cookies, Sessions, Login <br>
+                        Basic Security <br>
+                        Datenbank Interaktion
+                    </p>
+                    <p>
+                        <h3><a href="https://landing.aiven.io/en/aiven-for-postgresql/?utm_source=google&utm_medium=cpc&utm_campaign=postgresql_global&utm_content=text&gclid=Cj0KCQjw5-WRBhCKARIsAAId9FnhVWCw0qHCR7O4qwOOcEByCi596fA0ry0wMNV31LUFtb3ZziUqRksaAqq9EALw_wcB" class="linker">PostgreSQL</a></h3><br>
+                        Datenverarbeitung und Management mittels PostgreSQL fand ich sehr interessant, die Geschwindigkeit von Querys zu optimieren, vor allem wenn die Datenstrukturen größer und komplexer wurden.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h1>
+                        Programmieren
+                    </h1>
+                    <p>
+                        <h3><a href="https://unity.com/de" class="linker">Unity</a></h3><br>
+                        Das MMP2b Projekt wurde in Unity erstellt. Projekte: <a href="rain.html" class="linker">Rain</a>, <a href="pandaball.html" class="linker">Panda Ball</a>, <a href="pandaball.html" class="linker">MMP2b</a>.
+                    </p>
+                    <h2>
+                        C#
+                    </h2>
+                    <p>
+                        <h3><a href="https://www.monogame.net/" class="linker">MonoGame Framework</a></h3><br>
+                        Mit dem MonoGame Framework (C#) habe ich mein erstes eigenständiges Multimedia Projekt namens <a href="liminal.html" class="linker">Liminal</a> umgesetzt.
+                    </p>
+                    <h2>
+                        C++
+                    </h2>
+                    <p>
+                        <h3><a href="https://www.sfml-dev.org/" class="linker">SFML</a></h3><br>
+                        Mit SFML habe ich eine 2D Game Engine von Grund auf mit einfacher Physik, tilebased Map und einem GameObject Editor erstellt. Auf dieser Engine wurde das MMP2a Projekt “Bullet Hell” gebaut.
+                    </p>
+                    <p>
+                        <h3><a href="https://www.opengl.org/" class="linker">OpenGL</a></h3><br>
+                        Basics von OpenGL, Phong, Blinn Phong, Lambert, Texture Mapping, Shadow Mapping, Many Lights Management, simple Shaders.
+                    </p>
+                    <p>
+                        <h3><a href="https://opencv.org/" class="linker">OpenCV</a></h3><br>
+                        AR Projektionen, Objekterkennung, Posenerkennung, Image Recognition Pipeline.
+                    </p> 
+                    <a href="#work" class="btn">Meine Projekte</a>
+                </div>
+
+                <div class="service">
+                    <h1>
+                        Kunst & Design
+                    </h1>
+                    <p>
+                        <h3><a href="art.html" class="linker">Analoge Bilder</a></h3><br>
+                        Bilder sagen hier mehr als Worte.<br><a href="art.html" class="linker">Hier gehts zu Galerie!</a>
+                    </p>
+                    <p>
+                        <h3><a href="https://www.adobe.com/at/products/photoshop.html?mv=search&mv=search&sdid=LZ32SYVR&ef_id=1a2866b5a7711a0b9a6807668b48e1e5:G:s&s_kwcid=AL!3085!10!78821351431217!78821436661234&msclkid=1a2866b5a7711a0b9a6807668b48e1e5" class="linker">Adobe Photoshop</a> & <a href="https://www.adobe.com/at/products/illustrator.html?mv=search&mv=search&sdid=KCJMVLF6&ef_id=cd070c8dc06a13767adf6d5eec321907:G:s&s_kwcid=AL!3085!10!79096209044107!79096314104959&msclkid=cd070c8dc06a13767adf6d5eec321907" class="linker">Illustrator</a></h3><br>
+                        Als es mich immer mehr Richtung digitalen Medien zog, wandelte sich auch meine Art zu Kunst und Designs zu erstellen. Vor Allem für eigens erstellte Spiele, Pen and Paper Illustrationen und Icons benutze ich mein Grafik Tablett mit Adobe Photoshop und Illustrator.
+                    </p>
+                    <p>
+                        <h3><a href="https://www.blender.org/" class="linker">Blender 3D</a> & <a href="https://www.autodesk.de/" class="linker">Autodesk Maya</a></h3><br>
+                        Seit kurzem beschäftige ich mich mit 3D Modellierung. Nachdem wir durch das MMT Studium eine Einführung in Maya(link) bekommen haben. Inzwischen bringe ich mir Blender 3D mittels Tutorials und Online Kursen selber bei, da ich bei Projekten sehr ungern auf den Assetstore zurückgreifen will.
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+
+        <footer class="footer">
+
+            <a href="mailto:thomas.mayr1908@gmail.com" class="footer__link">
+                <i class="fas fa-envelope-square"></i> Thomas.Mayr1908@gmail.com
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/thomas-mayr-5b8676227/" class="social-list__link">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://gitlab.mediacube.at/fhs45917" class="social-list__link">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.reddit.com/" class="social-list__link">
+                        <i class="fab fa-reddit-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.instagram.com/thymas_maurizius/" class="social-list__link">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__refernce">
+                <a class="footer__refernce--item" href="https://fontawesome.com/">Icons by Fontawsome</a>
+                <a class="footer__refernce--item" href="https://unsplash.com/@markusspiske">Background by Markus Spiske</a>
+            </div>
+            <p class="footer__info">© Thomas Mayr 2022</p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>

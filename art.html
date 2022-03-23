@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Art</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/9a3638a209.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html" class="logo__font"><i class="fas fa-trademark"></i></a>
+            </div>
+
+            <button onclick="toggleDarkMode()" class="nav__toggle-darkmode">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="index.html#work" class="nav__link">Meine Projekte</a></li>
+                  <li class="nav__item"><a href="index.html#about" class="nav__link">Über mich</a></li> 
+                  <li class="nav__item"><a href="index.html#services" class="nav__link">Fähigkeiten</a></li>   
+                </ul>
+            </nav>
+        </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Meine Galerie
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Thomas Mayr
+        </p>
+        <img src="img/Logo.jpeg" alt="Art Logo" class="intro__img__item">
+    </section>
+
+    <div class="project__textfield">
+        
+        <div class="container">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 12</div>
+                <img src="img/1.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 12</div>
+                <img src="img/7.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 12</div>
+                <img src="img/3.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">4 / 12</div>
+                <img src="img/4.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">5 / 12</div>
+                <img src="img/5.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">6 / 12</div>
+                <img src="img/9.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                  <img src="img/2.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                  <img src="img/8.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                  <img src="img/13.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                  <img src="img/14.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                  <img src="img/10.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                  <img src="img/12.png" style="width:100%">
+              </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="img/1.png" style="width:100%" onclick="currentSlide(1)" alt="Herbst">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/7.png" style="width:100%" onclick="currentSlide(2)" alt="Abstrakte Landschaft">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/3.png" style="width:100%" onclick="currentSlide(3)" alt="Hirsch">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/4.png" style="width:100%" onclick="currentSlide(4)" alt="Apfel Ernte">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/5.png" style="width:100%" onclick="currentSlide(5)" alt="Auge">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/9.png" style="width:100%" onclick="currentSlide(6)" alt="Wolken">
+              </div>
+            </div>  
+
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="img/2.png" style="width:100%" onclick="currentSlide(7)" alt="Old School Manga Horror">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/8.png" style="width:100%" onclick="currentSlide(8)" alt="Abstraktes Wesen 01">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/13.png" style="width:100%" onclick="currentSlide(9)" alt="Abstraktes Wesen 02">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/14.png" style="width:100%" onclick="currentSlide(10)" alt="Narren Skelett">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/10.png" style="width:100%" onclick="currentSlide(11)" alt="Magischer Affe">
+              </div>
+
+              <div class="column">
+                <img class="demo cursor" src="img/12.png" style="width:100%" onclick="currentSlide(12)" alt="Kreatur">
+              </div>
+            </div>
+            <p>
+                Zur Zeit habe ich nur Zugang zu meinen Ink Zeichnungen, sobald es möglich ist werde ich eine weite Galerie für meine Acryl und Aquarell Bilder erstellen! 
+            </p>
+            </div>
+        </div>
+    </div>
+   
+    
+    <footer class="footer">
+
+        <a href="mailto:thomas.mayr1908@gmail.com" class="footer__link">
+            <i class="fas fa-envelope-square"></i> Thomas.Mayr1908@gmail.com
+        </a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/thomas-mayr-5b8676227/" class="social-list__link">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://gitlab.mediacube.at/fhs45917" class="social-list__link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.reddit.com/" class="social-list__link">
+                    <i class="fab fa-reddit-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/thymas_maurizius/" class="social-list__link">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer__refernce">
+            <a class="footer__refernce--item" href="https://fontawesome.com/">Icons by Fontawsome</a>
+            <a class="footer__refernce--item" href="https://unsplash.com/@markusspiske">Background by Markus Spiske</a>
+        </div>
+        <p class="footer__info">© Thomas Mayr 2022</p>
+    </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
